@@ -4,6 +4,8 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# cmd : streamlit run /home/asheeshm/workspace/streamlit/src/seaborn_woth_check_box3.py
+
 with st.sidebar:
     st.write("Click on the CheckBox Butten")
     st.checkbox("Male", key="male")

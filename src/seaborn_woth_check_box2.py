@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 col1, col2 = st.columns(2)
-
+# cmd : streamlit run /home/asheeshm/workspace/streamlit/src/seaborn_woth_check_box2.py
 with col1:
     st.write("Click on the CheckBox Butten")
 
