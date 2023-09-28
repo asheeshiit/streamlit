@@ -1,5 +1,5 @@
 import streamlit as st
-from datetime import datetime
+from datetime import datetime,date
 
 ############################ st.button ##################################
 if st.button('Say hello'):
@@ -90,12 +90,12 @@ txt = st.text_area('Text to analyze', '''
     was the season of Light, it was the season of Darkness, it
     was the spring of hope, it was the winter of despair, (...)
     ''')
-st.write('Sentiment:', run_sentiment_analysis(txt))
-############################ st.date_input ##################################
+# st.write('Sentiment:', run_sentiment_analysis(txt))
+############################ st._input ##################################
 # date input widget.
 d = st.date_input(
     "When\'s your birthday",
-    datetime.date(2019, 7, 6))
+    date(2019, 7, 6))
 st.write('Your birthday is:', d)
 ############################ st.time_input ##################################
 t = st.time_input('Set an alarm for', datetime.time(8, 45))
