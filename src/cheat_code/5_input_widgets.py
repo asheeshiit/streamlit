@@ -97,6 +97,7 @@ d = st.date_input(
     "When\'s your birthday",
     date(2019, 7, 6))
 st.write('Your birthday is:', d)
+
 ############################ st.time_input ##################################
 t = st.time_input('Set an alarm for', datetime.time(8, 45))
 st.write('Alarm is set for', t)
